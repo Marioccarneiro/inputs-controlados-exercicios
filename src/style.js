@@ -1,7 +1,12 @@
-
 import styled from "styled-components";
 
-export const DesignDoCartao = styled.div `
+export const PaginaDoCartao = styled.div `
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+`
+export const Cartao = styled.div `
     background-image: linear-gradient(to right, orange, orangered);
     opacity: 0.8;
     box-shadow: 2px 2px 10px;
@@ -22,7 +27,7 @@ export const LogoLabenu = styled.img `
     justify-self: right;
     opacity: 0.15; 
 `
-export const LogoMasterCard = styled.img `
+export const LogoMaster = styled.img `
     width: 80px;
     justify-self: right;
     position: absolute;
@@ -57,3 +62,4 @@ export const FormaDePagamento = styled.p`
     font-size: 1.5rem;
 `
  
+  
