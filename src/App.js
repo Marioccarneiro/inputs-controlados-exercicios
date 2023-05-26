@@ -1,6 +1,5 @@
-
-import { createGlobalStyle } from 'styled-components'
-import PaginaDoCartao from './Pagina/PaginaDoCartao';
+import { createGlobalStyle } from "styled-components";
+import PaginaDoCartao from "./Pagina/PaginaDoCartao";
 
 const GlobalStyles = createGlobalStyle`
   * {
@@ -9,13 +8,13 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     font-family: Helvetica;
   }
-`
+`;
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      <PaginaDoCartao/>
+      <PaginaDoCartao />
     </>
   );
 }
